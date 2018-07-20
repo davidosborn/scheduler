@@ -1,0 +1,23 @@
+{
+	"name": "@davidosborn/scheduler",
+	"version": "0.0.0",
+	"description": "A flexible task scheduler",
+	"keywords": [
+		"scheduler",
+		"task"
+	],
+	"homepage": "https://github.com/davidosborn/scheduler",
+	"bugs": {
+		"url": "https://github.com/davidosborn/scheduler",
+		"email": "david@davidosborn.io"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "David Osborn",
+		"email": "david@davidosborn.io",
+		"url": "http://davidosborn.io/"
+	},
+	"dependencies": {
+		"fastpriorityqueue": "*"
+	}
+}
