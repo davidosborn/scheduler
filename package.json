@@ -1,6 +1,6 @@
 {
 	"name": "@davidosborn/scheduler",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "A flexible task scheduler",
 	"keywords": [
 		"scheduler",
@@ -36,7 +36,8 @@
 	"babel": {
 		"presets": [
 			[
-				"@babel/env", {
+				"@babel/env",
+				{
 					"targets": {
 						"node": "current"
 					}
