@@ -6,9 +6,9 @@
 		"scheduler",
 		"task"
 	],
-	"homepage": "https://github.com/davidosborn/scheduler",
+	"homepage": "https://github.com/davidosborn/scheduler#readme",
 	"bugs": {
-		"url": "https://github.com/davidosborn/scheduler",
+		"url": "https://github.com/davidosborn/scheduler/issues",
 		"email": "david@davidosborn.io"
 	},
 	"license": "MIT",
@@ -17,7 +17,19 @@
 		"email": "david@davidosborn.io",
 		"url": "http://davidosborn.io/"
 	},
+	"files": [
+		"lib"
+	],
 	"main": "lib/index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/davidosborn/scheduler"
+	},
+	"scripts": {
+		"build": "npx babel -d lib src",
+		"prepublishOnly": "yarpm run build",
+		"publish": "./publish.sh"
+	},
 	"dependencies": {
 		"fastpriorityqueue": "*"
 	},
@@ -29,11 +41,11 @@
 		"@babel/preset-env": "^7.0.0-beta",
 		"@babel/preset-stage-0": "^7.0.0-beta",
 		"babel-preset-minify": "canary",
+		"jq.node": "*",
 		"yarpm": "*"
 	},
-	"scripts": {
-		"build": "npx babel -d lib src",
-		"prepublishOnly": "yarpm run build"
+	"publishConfig": {
+		"access": "public"
 	},
 	"babel": {
 		"presets": [
