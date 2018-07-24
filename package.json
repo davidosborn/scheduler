@@ -27,8 +27,7 @@
 	},
 	"scripts": {
 		"build": "npx babel -d lib src",
-		"prepublishOnly": "yarpm run build",
-		"publish": "./publish.sh"
+		"prepublishOnly": "yarpm run build"
 	},
 	"dependencies": {
 		"fastpriorityqueue": "*"
