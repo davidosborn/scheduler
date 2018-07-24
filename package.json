@@ -27,7 +27,7 @@
 	},
 	"scripts": {
 		"build": "npx babel -d lib src",
-		"prepublishOnly": "yarpm run build"
+		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
 		"fastpriorityqueue": "*"
@@ -39,9 +39,7 @@
 		"@babel/plugin-proposal-optional-chaining": "^7.0.0-beta",
 		"@babel/preset-env": "^7.0.0-beta",
 		"@babel/preset-stage-0": "^7.0.0-beta",
-		"babel-preset-minify": "canary",
-		"jq.node": "*",
-		"yarpm": "*"
+		"babel-preset-minify": "canary"
 	},
 	"publishConfig": {
 		"access": "public"

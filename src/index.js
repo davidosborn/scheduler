@@ -1,9 +1,4 @@
 'use strict'
 
-import Scheduler from './scheduler'
-import Task from './task'
-
-export default {
-	Scheduler,
-	Task
-}
+export { default as Scheduler } from './scheduler'
+export { default as Task } from './task'
