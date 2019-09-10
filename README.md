@@ -1,3 +1,3 @@
 # Scheduler
 
-A flexible task scheduler.
+A task scheduler.

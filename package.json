@@ -1,7 +1,7 @@
 {
 	"name": "@davidosborn/scheduler",
 	"version": "0.0.11",
-	"description": "A flexible task scheduler",
+	"description": "A task scheduler",
 	"keywords": [
 		"scheduler",
 		"task"
